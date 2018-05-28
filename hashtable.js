@@ -136,19 +136,3 @@ function LinkedList() {
     return head
   }
 }
-
-var hash = new HashTable()
-hash.put('Gandalf', 'gandalf@email.com')
-hash.put('John', 'john@email.com')
-hash.put('Tyrion', 'tyrion@email.com')
-hash.put('Aaron', 'aaron@email.com')
-hash.put('Ana', 'ana@email.com')
-hash.put('Jonathan', 'jonathan@email.com')
-hash.put('Jamie', 'jamie@email.com')
-hash.put('Sue', 'sue@email.com')
-hash.put('Mindy', 'mindy@email.com')
-hash.put('Paul', 'paul@email.com')
-hash.put('Nathan', 'nathan@email.com')
-console.log(hash.getTable())
-console.log(hash.get('Tyrion'))
-console.log(hash.getList('Sue'))
