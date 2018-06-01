@@ -1,6 +1,10 @@
 function Stack () {
   var items = []
 
+  this.push = function (element) {
+    items.push(element)
+  }
+  
   this.pop = function (element) {
     return items.pop()
   }
